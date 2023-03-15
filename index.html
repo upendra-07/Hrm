@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="hrm-favicon.ico">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+    <title>Hrm</title>
+</head>
+<body>
+    <nav class="navbar">
+        <a class="toggle">
+          <i class="fa fa-bars fa-lg"></i>
+        </a> 
+        <div class="logo">
+            <img src="hrm logo.png" alt="hrm-logo">
+        </div>
+    </nav>
+
+    <form class="acc-det" id="details" onsubmit="return validation()"  action="submit.html">
+        <div class="input-fields">
+            <label for="bname">Bank Name:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" class="input-field" id="bname" name="bname" placeholder="Bank Name" required><br>
+            <p id="error1"></p>
+
+            <label for="acc-nu">Account Number:</label>
+            <input type="text" class="input-field" id="acc-nu" name="acc-nu" placeholder="Account Number" required><br>
+            <p id="error2"></p>
+
+            <label for="ifsc">IFSC:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" class="input-field" id="ifsc" name="ifsc" placeholder="IFSC" required><br>
+            <p id="error3"></p>
+
+            <label for="type1">Branch Name:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" class="input-field" id="type1" name="type1" placeholder="Branch Name" required><br>
+            <p id="error4"></p>
+
+            <label for="ho-name">Holder Name:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" class="input-field" id="ho-name" name="ho-name" placeholder="Holder Name" required><br>
+            <p id="error5"></p>
+        </div>
+<!-- button -->
+        <div class="buttons">
+            <input type="button" name="Back" id="back-btn" value="Back">
+            <input type="submit"  id="sub-btn">
+        </div>
+    </form>
+
+    
+    
+
+    <script src="index.js"></script>
+</body>
+</html>

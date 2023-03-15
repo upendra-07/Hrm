@@ -1,0 +1,100 @@
+*{
+    border:0;
+    margin:0;
+}
+
+body{
+    background-color: #d9d8d889 !important;
+
+}
+
+.navbar{
+    background-color: #7A1ee6;
+    height: 65px;
+    display:flex;
+}
+
+.toggle {
+    padding-top: 25px;
+    padding-left: 30px;
+    color:white;
+}
+
+.logo{
+    margin-left: 60px;
+    margin-top: 8px;
+}
+.acc-det{
+    background-color: white;
+    width:40%;
+    border:1px solid rgb(192, 192, 192);
+    border-radius: 10px;
+    margin:30px 0 0 30% ;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+}
+
+.input-field{
+    background-color:#d9d8d889  ;
+    margin-top: 10px;
+    margin-bottom: 11px;
+    margin-left: 60px;
+    width:60%;
+    padding: 8px;
+    border-radius: 6px;
+    outline: 0;}
+    
+.buttons{
+    margin-top:10px;
+    display: block;
+}
+
+
+#back-btn{
+    background:#7A1ee6;
+    border: #fff;
+    color:white;
+    border-radius:10px;
+    height:40px;
+    width: 60px;
+}
+
+#sub-btn{
+    background:#7A1ee6;
+    border: #fff;
+    color:white;
+    border-radius:10px;
+    height:40px;
+    width: 70px;
+    margin-left: 70%;
+}
+
+#error1,#error2,#error3,#error5,#error4{
+    display: none;
+    color: red;
+    margin-left: 30%;
+}
+
+/* submit form styling */
+.acc-det1{
+    background-color: white;
+    width:20%;
+    border:1px solid rgb(192, 192, 192);
+    border-radius: 10px;
+    margin:60px 0 0 40% ;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-top: 40px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+
+.sub-msg{
+    text-align: center;
+}
+
+.buttons{
+    padding-right: 10px ;
+    text-align: center;
+}
